@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf_8">
+    <meta name="author" content="Antonio Ferreras">
+    <meta name="description" content="The best sushi in Richmond Hill!">
+    <title>Tomo Sushi - Richmond Hill</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header>
+        <div id="header-container">
+            <a id="logo" href="index.html"><img src="res/images/logo.png"></a>
+            <div id="social-media-header">
+                <a href="https://www.facebook.com" target="_blank" title="Our Facebook page!"><img id="fb"
+                        src="res/images/fb.png"></a>
+                <a href="https://www.instagram.com" target="_blank" title="Our Instagram!"><img
+                        src="res/images/ig.png"></a>
+            </div>
+        </div>
+    </header>
+
+    <div id="navbar">
+        <a href="index.html">Home</a>
+        <a href="menu.html" class="selected">Menu</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <main>
+
+        <div class="page">
+
+            <p>Join us in our <b>award winning</b>, all-you-can=eat buffet or relax and enjoy
+                an unforgettable Japanese dining experience.
+            </p>
+
+            <hr>
+
+            <div id="menu-selector">
+                <div class="menu-type menu-button-selected" onclick="setMenuType(0)">Lunch & Dinner</div>
+                <div class="menu-type" onclick="setMenuType(1)">All You Can Eat</div>
+            </div>
+
+            <div class="menu-container menu-selected">
+                <div class="menu-section">
+                    <h2>Appetizer</h2>
+                    <table>
+                        <tr>
+                            <td>A1 Edamame</td>
+                            <td>4.99</td>
+                        </tr>
+                        <tr>
+                            <td>A2 Yakinasu (Baked Eggplant)</td>
+                            <td>5.50</td>
+                        </tr>
+                        <tr>
+                            <td>A3 Fried Dumpling (4pcs)</td>
+                            <td>4.99</td>
+                        </tr>
+                        <tr>
+                            <td>A4 Steamed Pork Dumpling (2pcs)</td>
+                            <td>5.99</td>
+                        </tr>
+                        <tr>
+                            <td>A5 Vegetable Spring Roll (3pcs)</td>
+                            <td>4.50</td>
+                        </tr>
+                        <tr>
+                            <td>A6 Fried Tofu</td>
+                            <td>4.50</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="menu-section">
+                    <h2>Noodles</h2>
+                    <table>
+                        <tr>
+                            <td>B1 Shrimp & Seafood Udon</td>
+                            <td>14.50</td>
+                        </tr>
+                        <tr>
+                            <td>B2 Pork Belly Udon</td>
+                            <td>15.99</td>
+                        </tr>
+                        <tr>
+                            <td>B3 Beef Udon</td>
+                            <td>14.50</td>
+                        </tr>
+                        <tr>
+                            <td>B4 Fish Cake & Egg Soba</td>
+                            <td>12.50</td>
+                        </tr>
+                        <tr>
+                            <td>B5 Dumpling Soba</td>
+                            <td>13.50</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="menu-section">
+                    <h2>Soups</h2>
+                    <table>
+                        <tr>
+                            <td>C1 Miso Soup</td>
+                            <td>2.50</td>
+                        </tr>
+                        <tr>
+                            <td>C2 Seafood Soup</td>
+                            <td>3.99</td>
+                        </tr>
+                        <tr>
+                            <td>C3 Shredded Beef Soup</td>
+                            <td>3.99</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="menu-section">
+                    <h2>Rolls</h2>
+                    <table>
+                        <tr>
+                            <td>D1 California Roll (8pcs)</td>
+                            <td>6.50</td>
+                        </tr>
+                        <tr>
+                            <td>D2 Salmon Avocado Roll (6pcs)</td>
+                            <td>6.50</td>
+                        </tr>
+                        <tr>
+                            <td>D3 Tuna Roll (6pcs)</td>
+                            <td>7.25</td>
+                        </tr>
+                        <tr>
+                            <td>D4 Shrimp Tempura Roll (8pcs)</td>
+                            <td>5.50</td>
+                        </tr>
+                        <tr>
+                            <td>D5 Crab Meat Roll (6pcs)</td>
+                            <td>7.99</td>
+                        </tr>
+                        <tr>
+                            <td>D6 Beef Teriyaki Roll (8pcs)</td>
+                            <td>6.99</td>
+                        </tr>
+                        <tr>
+                            <td>D7 Chicken Teriyaki Roll (8pcs)</td>
+                            <td>6.99</td>
+                        </tr>
+                        <tr>
+                            <td>D8 Dragon Roll (10pcs)</td>
+                            <td>8.50</td>
+                        </tr>
+                        <tr>
+                            <td>D9 Crispy Vegetable Roll (8pcs)</td>
+                            <td>4.50</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="menu-container">
+                <div class="menu-section">
+                    <h2>Dumpling</h2>
+                    <table>
+                        <tr>
+                            <td>Steamed Pork Dumpling</td>
+                        </tr>
+                        <tr>
+                            <td>Steamed Beef Dumpling</td>
+                        </tr>
+                        <tr>
+                            <td>Steamed Vegetable Dumpling</td>
+                        </tr>
+                        <tr>
+                            <td>Fried Pork & Noodle Dumpling</td>
+                        </tr>
+                        <tr>
+                            <td>Fried Kimchi Dumpling</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="menu-section">
+                    <h2>Tempura</h2>
+                    <table>
+                        <tr>
+                            <td>Shrimp Tempura</td>
+                        </tr>
+                        <tr>
+                            <td>Assorted Vegetable Tempura</td>
+                        </tr>
+                        <tr>
+                            <td>Fishcake Tempura</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="menu-section">
+                    <h2>Teppanyaki</h2>
+                    <table>
+                        <tr>
+                            <td>Chicken Teriyaki</td>
+                        </tr>
+                        <tr>
+                            <td>Salmon Teriyaki</td>
+                        </tr>
+                        <tr>
+                            <td>Grilled Pork Belly</td>
+                        </tr>
+                        <tr>
+                            <td>Grilled Salmon</td>
+                        </tr>
+                        <tr>
+                            <td>Grilled Salmon Belly</td>
+                        </tr>
+                        <tr>
+                            <td>BBQ Beef Short Ribs</td>
+                        </tr>
+                        <tr>
+                            <td>Grilled Spicy Tofu</td>
+                        </tr>
+                        <tr>
+                            <td>Enoki Beef</td>
+                        </tr>
+                        <tr>
+                            <td>Stir Fry Vegetables</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="menu-section">
+                    <h2>Sashimi & Sushi</h2>
+                    <table>
+                        <tr>
+                            <td>Salmon</td>
+                        </tr>
+                        <tr>
+                            <td>White Tuna</td>
+                        </tr>
+                        <tr>
+                            <td>Shrimp</td>
+                        </tr>
+                        <tr>
+                            <td>Red Snapper</td>
+                        </tr>
+                        <tr>
+                            <td>Mackarel</td>
+                        </tr>
+                        <tr>
+                            <td>Crab & Fishcake Sushi</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="menu-section">
+                    <h2>Hand Roll</h2>
+                    <table>
+                        <tr>
+                            <td>Classic Roll</td>
+                        </tr>
+                        <tr>
+                            <td>Dynamite Roll</td>
+                        </tr>
+                        <tr>
+                            <td>Salmon Roll</td>
+                        </tr>
+                        <tr>
+                            <td>White Tuna Roll</td>
+                        </tr>
+                        <tr>
+                            <td>Snapper Roll</td>
+                        </tr>
+                        <tr>
+                            <td>Grilled Eel Roll</td>
+                        </tr>
+                        <tr>
+                            <td>California Style Roll</td>
+                        </tr>
+                        <tr>
+                            <td>Avocado Roll</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer-container">
+
+            <div id="footer-grid">
+
+                <img src="res/images/logobw.png">
+
+                <div>
+                    <h4>Location:</h4>
+                    <p>U420420 Yonge Street, Richmond Hill ON ABC XYZW</p>
+                </div>
+
+                <div>
+                    <h4>Contact:</h4>
+                    <ul>
+                        <li>brandname@email.com</li>
+                        <li>(905)-555-5555</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="copyright-container">
+            <p>© 2019 [insert copyright things]. Created by: Antonio M. Ferreras</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

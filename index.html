@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf_8">
+    <meta name="author" content="Antonio Ferreras">
+    <meta name="description" content="The best sushi in Richmond Hill!">
+    <title>Tomo Sushi - Richmond Hill</title>
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <header>
+        <div id="header-container">
+            <a id="logo" href="index.html"><img src="res/images/logo.png"></a>
+            <div id="social-media-header">
+                <a href="https://www.facebook.com" target="_blank" title="Our Facebook page!"><img id="fb" src="res/images/fb.png"></a>
+                <a href="https://www.instagram.com" target="_blank" title="Our Instagram!"><img src="res/images/ig.png"></a>
+            </div>
+        </div>
+    </header>
+
+    <div id="navbar">
+        <a href="index.html" class="selected">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <main>
+        <div class="slideshow">
+            <img class="slide shown" src="res/images/image1.jpg" alt="Image of sushi platter 1">
+            <img class="slide unseen" src="res/images/image2.jpg" alt="Image of sushi plate 2">
+            <img class="slide unseen" src="res/images/image3.jpg" alt="Image of sushi plate 3">
+
+            <a class="prev" onclick="prevSlide(true)">&#10094;</a>
+            <a class="next" onclick="nextSlide(true)">&#10095;</a>
+        </div>
+
+        <div class="page">
+
+            <p>Welcome to <b>Tomo Sushi</b>! We offer the most authentic Japanese cuisine right here in 
+                Richmond Hill! Join us in our <b>award winning</b>, all-you-can=eat buffet or relax and enjoy
+                a quality Japanese dining experience.
+            </p>
+
+            <hr>
+
+            <div class="grid-wrapper">
+                <div class="panel">
+                    <img class="thumbnail" src="res/images/allyoucaneat.jpg">
+                    <p>Try our awards-winning, all-you-can-eat buffet and get a taste of Japan! 
+                        <b>Only $25</b> per adult and <b>$15</b> per child.
+                    </p>
+                </div>
+
+                <div class="dividor"></div>
+
+                <div class="panel">
+                    <img class="thumbnail" src="res/images/fishkatsu.jpg">
+                    <p>Come try our famous, <b>fish katsu</b>. This seafood dish blankets 
+                        light fish katsu in a rich curry sauce for one irresistible meal!
+                    </p>
+                </div>
+            </div>
+
+            <hr>
+
+            <p>Don't have the time to stop by in person? You can still induldge in our food by having it
+                delivered right to your door as we're on <a class="link" href="https://www.skipthedishes.com" target="_blank" title="SkipTheDishes">SkipTheDishes</a> and 
+                <a class="link" href="https://www.ubereats.com" target="_blank" title="Uber Eats">Uber Eats</a>.
+            </p>
+
+        </div>
+
+        <div id="footer-container">
+
+            <div id="footer-grid">
+
+                <img src="res/images/logobw.png">
+
+                <div>
+                    <h4>Location:</h4>
+                    <p>U420420 Yonge Street, Richmond Hill ON ABC XYZW</p>
+                </div>
+
+                <div>
+                    <h4>Contact:</h4>
+                    <ul>
+                        <li>brandname@email.com</li>
+                        <li>(905)-555-5555</li>
+                    </ul>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div id="copyright-container">
+                <p>© 2019 [insert copyright things]. Created by: Antonio M. Ferreras</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
